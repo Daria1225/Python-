@@ -6,5 +6,5 @@ def square (side):
         area = math.ceil(area)
     return area
 
-print (square (3))
-print (square (3.6))
+print(square (3))
+print(square (3.6))

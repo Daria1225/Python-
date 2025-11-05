@@ -2,7 +2,7 @@ class StringUtils:
     """
     Класс с полезными утилитами для обработки и анализа строк
     """
-
+    
     def capitalize(self, string: str) -> str:
         """
         Принимает на вход текст, делает первую букву заглавной
@@ -51,3 +51,4 @@ class StringUtils:
         if self.contains(string, symbol):
             string = string.replace(symbol, "")
         return string
+    

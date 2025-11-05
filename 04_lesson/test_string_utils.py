@@ -93,3 +93,4 @@ class TestStringUtils:
     def test_delete_symbol_none_symbol(self):
         with pytest.raises(TypeError):
             self.utils.delete_symbol("abc", None)
+
